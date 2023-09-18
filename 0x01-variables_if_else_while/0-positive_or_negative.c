@@ -1,11 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 /**
  * main - A function that prints random positive and nagative numbers and zero
  * Return: 0 (Successful)
 /* more headers goes there */
-
+#include <stdio.h>
 /* betty style doc for function main goes there */
 int main(void)
 {
