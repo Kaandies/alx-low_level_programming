@@ -13,7 +13,7 @@ int main(void)
 	putchar("%d", i);
 	if (i <= 'z')
 	{
-		putcha(" ");
+		putchar(" ");
 	}
 	return (0);
 }
