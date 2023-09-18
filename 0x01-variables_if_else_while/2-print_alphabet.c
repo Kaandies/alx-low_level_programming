@@ -10,8 +10,10 @@ int main(void)
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
-	putchar(i);
-	putchar('\n');
+	putchar("%d", i);
+	if (i <= 'z')
+	{
+		putcha(" ");
 	}
 	return (0);
 }
